@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3FADD419D4267100B8554D /* HBXPScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3FADD319D4267100B8554D /* HBXPScreenSaverView.h */; };
+		CF3FADD619D4267100B8554D /* HBXPScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FADD519D4267100B8554D /* HBXPScreenSaverView.m */; };
+		CF3FADDD19D4274B00B8554D /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3FADDC19D4274B00B8554D /* ScreenSaver.framework */; };
+		CF3FADDF19D427A900B8554D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3FADDE19D427A900B8554D /* Foundation.framework */; };
+		CF3FADE219D427C400B8554D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3FADE119D427C400B8554D /* AppKit.framework */; };
+		CF3FADE819D4424100B8554D /* logon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3FADE719D4424100B8554D /* logon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF3FADCE19D4267100B8554D /* Experience.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Experience.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3FADD219D4267100B8554D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3FADD319D4267100B8554D /* HBXPScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBXPScreenSaverView.h; sourceTree = "<group>"; };
+		CF3FADD519D4267100B8554D /* HBXPScreenSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBXPScreenSaverView.m; sourceTree = "<group>"; };
+		CF3FADDC19D4274B00B8554D /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		CF3FADDE19D427A900B8554D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF3FADE119D427C400B8554D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF3FADE719D4424100B8554D /* logon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3FADCA19D4267100B8554D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FADE219D427C400B8554D /* AppKit.framework in Frameworks */,
+				CF3FADDF19D427A900B8554D /* Foundation.framework in Frameworks */,
+				CF3FADDD19D4274B00B8554D /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3FADC419D4267100B8554D = {
+			isa = PBXGroup;
+			children = (
+				CF3FADD019D4267100B8554D /* Experience */,
+				CF3FADE019D427AC00B8554D /* Frameworks */,
+				CF3FADCF19D4267100B8554D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3FADCF19D4267100B8554D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FADCE19D4267100B8554D /* Experience.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3FADD019D4267100B8554D /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FADD319D4267100B8554D /* HBXPScreenSaverView.h */,
+				CF3FADD519D4267100B8554D /* HBXPScreenSaverView.m */,
+				CF3FADD119D4267100B8554D /* Supporting Files */,
+			);
+			path = Experience;
+			sourceTree = "<group>";
+		};
+		CF3FADD119D4267100B8554D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FADE719D4424100B8554D /* logon.png */,
+				CF3FADD219D4267100B8554D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3FADE019D427AC00B8554D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3FADE119D427C400B8554D /* AppKit.framework */,
+				CF3FADDE19D427A900B8554D /* Foundation.framework */,
+				CF3FADDC19D4274B00B8554D /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CF3FADCB19D4267100B8554D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FADD419D4267100B8554D /* HBXPScreenSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CF3FADCD19D4267100B8554D /* Experience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3FADD919D4267100B8554D /* Build configuration list for PBXNativeTarget "Experience" */;
+			buildPhases = (
+				CF3FADC919D4267100B8554D /* Sources */,
+				CF3FADCA19D4267100B8554D /* Frameworks */,
+				CF3FADCB19D4267100B8554D /* Headers */,
+				CF3FADCC19D4267100B8554D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Experience;
+			productName = Experience;
+			productReference = CF3FADCE19D4267100B8554D /* Experience.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3FADC519D4267100B8554D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HBXP;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "HASHBANG Productions";
+				TargetAttributes = {
+					CF3FADCD19D4267100B8554D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CF3FADC819D4267100B8554D /* Build configuration list for PBXProject "Experience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF3FADC419D4267100B8554D;
+			productRefGroup = CF3FADCF19D4267100B8554D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3FADCD19D4267100B8554D /* Experience */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3FADCC19D4267100B8554D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FADE819D4424100B8554D /* logon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3FADC919D4267100B8554D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3FADD619D4267100B8554D /* HBXPScreenSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF3FADD719D4267100B8554D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF3FADD819D4267100B8554D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF3FADDA19D4267100B8554D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Experience/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		CF3FADDB19D4267100B8554D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Experience/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3FADC819D4267100B8554D /* Build configuration list for PBXProject "Experience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3FADD719D4267100B8554D /* Debug */,
+				CF3FADD819D4267100B8554D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3FADD919D4267100B8554D /* Build configuration list for PBXNativeTarget "Experience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3FADDA19D4267100B8554D /* Debug */,
+				CF3FADDB19D4267100B8554D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3FADC519D4267100B8554D /* Project object */;
+}
